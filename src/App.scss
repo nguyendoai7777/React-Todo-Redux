@@ -1,0 +1,25 @@
+@import "bootstrap.min.css";
+@import "./fontawesome.css";
+
+.done {
+  color: gray;
+  text-decoration: line-through;
+}
+
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.mdx {
+  transition: .3s;
+}
+.md-tick-check:after {
+  content: '\2713';
+  font-size: 20px;
+  transition: .3s;
+}
+.md-not-check:after {
+  content: '\03C7';
+  font-size: 20px;
+  transition: .3s;
+}
